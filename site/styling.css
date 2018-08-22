@@ -1,0 +1,145 @@
+h3{
+	font-size: 40px;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px
+}
+
+
+*{
+	box-sizing: border-box;
+}
+.childone{
+	background-color: white;
+	position: relative;
+	width: 60px;
+	float: right;
+	border: 2px solid blue;
+	color: green
+}
+.childtwo{
+	background-color: white;
+	position: relative;
+	width: 60px;
+	float: right;
+	border: 2px solid blue;
+	color: green
+	  }
+
+ .childthree{
+	background-color: white;
+	position: relative;
+	width: 60px;
+	float: right;
+	border: 2px solid blue;
+	color: green
+	  }
+@media ( min-width: 992px){
+	
+	
+	.one{
+		width: 32.3%;
+		float: left;
+		background-color: red;
+		color: white;
+		padding: 2px;
+		border: 2px solid black;
+		font-size: 20px;
+		margin-left: 2px ;
+		margin-right: 2px 
+
+	}
+	.two{
+		width: 32.3%;
+		float: left;
+		background-color: red;
+		color: white;
+		padding: 2px;
+		border: 2px solid black;
+		font-size: 20px;
+		margin-left: 5px ;
+		margin-right: 5px;
+		box-shadow: inset;
+	}
+	.three{
+		width: 32.3%;
+		float: left;
+		background-color: red;
+		color: white;
+		padding: 2px;
+		border: 2px solid black;
+		font-size: 20px;
+		margin-left: 2px ;
+		margin-right: 2px 
+	}
+}
+@media ( min-width: 768px ) and ( max-width: 991px) 
+			{ 
+				
+	.one{
+		width: 49%;
+		float: left;
+		background-color: orange;
+		font-size: 20px;
+		padding: 3px;
+		border: 2px solid black;
+		margin-left: 2px;
+		margin-right: 2px
+	}
+	.two{
+		width: 49%;
+		float: right;
+		background-color: orange;
+		padding: 3px;
+		border: 2px solid  black;	
+		font-size: 20px;
+		margin-left: 2px;
+		margin-right: 2px
+
+	}
+	.three{
+		width: 100%;
+		background-color: yellow;
+		float: right;
+		margin-top: 5px auto;
+		border: 2px solid black;
+		font-size: 20px;
+		margin: 2px auto;
+	}
+	
+	}
+@media( max-width: 767px){
+
+	.one{
+		border:2px solid red;
+		padding: 10px;
+		background-color: brown;
+		color: white;
+		margin: 5px auto;
+		font-size: 22px;
+		border: 2px solid black;
+
+	}
+	.two{
+		border:2px solid red;
+		padding: 10px;
+		background-color: purple;
+		color: white;
+		margin: 5px auto;
+		font-size: 22px;
+		border: 2px solid black;
+
+	}
+	.three{
+		border:2px solid red;
+		padding: 10px;
+		background-color: purple;
+		color: white;
+		margin: 5px auto;
+		font-size: 22px;
+		border: 2px solid black;
+
+	}
+}
